@@ -1,0 +1,57 @@
+{
+  "name": "breakdance-cli",
+  "description": "CLI for breakdance, the HTML to markdown converter for node.js.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/breakdance-cli",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/breakdance-cli",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/breakdance-cli/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "breakdance": "^2.0.0",
+    "log-ok": "^0.1.1",
+    "minimist": "^1.2.0",
+    "write": "^0.3.3"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.12"
+  },
+  "keywords": [
+    "breakdance",
+    "cli",
+    "compile",
+    "compiler",
+    "convert",
+    "html",
+    "markdown",
+    "parse",
+    "parser",
+    "render",
+    "transform"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
