@@ -1,18 +1,21 @@
 {
   "name": "breakdance-cli",
   "description": "CLI for breakdance, the HTML to markdown converter for node.js.",
-  "version": "0.1.0",
-  "homepage": "https://github.com/jonschlinkert/breakdance-cli",
+  "version": "1.0.0",
+  "homepage": "https://github.com/breakdance/breakdance-cli",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
-  "repository": "jonschlinkert/breakdance-cli",
+  "repository": "breakdance/breakdance-cli",
   "bugs": {
-    "url": "https://github.com/jonschlinkert/breakdance-cli/issues"
+    "url": "https://github.com/breakdance/breakdance-cli/issues"
   },
   "license": "MIT",
   "files": [
-    "index.js"
+    "cli.js"
   ],
-  "main": "index.js",
+  "bin": {
+    "bd": "cli.js",
+    "breakdance": "cli.js"
+  },
   "engines": {
     "node": ">=4"
   },
@@ -20,7 +23,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "breakdance": "^2.0.0",
+    "breakdance": "^3.0.0",
     "log-ok": "^0.1.1",
     "minimist": "^1.2.0",
     "write": "^0.3.3"
@@ -52,6 +55,11 @@
     ],
     "lint": {
       "reflinks": true
-    }
+    },
+    "reflinks": [
+      "breakdance",
+      "breakdance-util",
+      "snapdragon"
+    ]
   }
 }
