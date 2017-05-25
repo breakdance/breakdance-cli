@@ -6,7 +6,7 @@ var ok = require('log-ok');
 var writeFile = require('write');
 var minimist = require('minimist');
 var breakdance = require('breakdance');
-var pkg = require('../package');
+var pkg = require('./package');
 
 var opts = {
   alias: {
