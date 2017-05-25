@@ -1,7 +1,7 @@
 {
   "name": "breakdance-cli",
   "description": "CLI for breakdance, the HTML to markdown converter for node.js.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/breakdance/breakdance-cli",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "breakdance/breakdance-cli",
@@ -17,7 +17,7 @@
     "breakdance": "cli.js"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=0.12.0"
   },
   "scripts": {
     "test": "mocha"
